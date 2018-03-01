@@ -30,7 +30,7 @@ public class ControlSql {
 //            while (resultSet.next()) {
 //                System.out.println(resultSet.getString(1) + "---" + resultSet.getString(2));
 //            }
-            //相当于start transaction 开启事务
+            //相当于 start transaction 开启事务
 //            connection.setAutoCommit(false);
 //            String updateSql = "update test set money = money - 100 where name = 'Tom'";
 //            int execute = statement.executeUpdate(updateSql);
