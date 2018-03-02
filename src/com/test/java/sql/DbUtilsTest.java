@@ -9,7 +9,7 @@ public class DbUtilsTest {
 
     public static  void main(String[] args){
         Connection connection = DbUtils.getConnection();
-        String sql = "select sum(age) as getSum, name from student group by name having getSum < 20";
+        String sql = "select sum(age) as getSum, name from student_testsql group by name having getSum < 20";
         try {
             PreparedStatement preparedStatement = connection.prepareStatement(sql);
 //            preparedStatement.setString(1, age);

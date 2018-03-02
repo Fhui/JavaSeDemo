@@ -2,14 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="036aca7e-50cd-4147-904e-52d804f189ee" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/doc/28/day28作业.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/test/java/sql/DbUtils.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/test/java/sql/DbUtilsTest.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/test/java/sql/TestSql.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/test/java/sql/DatabaseUtilTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/test/java/sql/DatabaseUtils.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/test/java/sql/Work.java" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/c06ca159-5e60-4099-9a38-bedfbf16a2d0.xml" afterPath="$PROJECT_DIR$/.idea/dataSources/c06ca159-5e60-4099-9a38-bedfbf16a2d0.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/config.properties" afterPath="$PROJECT_DIR$/config.properties" />
-      <change beforePath="$PROJECT_DIR$/src/com/test/java/sql/ControlSql.java" afterPath="$PROJECT_DIR$/src/com/test/java/sql/ControlSql.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/test/java/sql/DbUtilsTest.java" afterPath="$PROJECT_DIR$/src/com/test/java/sql/DbUtilsTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -42,21 +42,31 @@
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
         <item name="test_sql" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="stub: schema" type="c314c289:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="test_sql" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="test_sql: schema" type="c314c289:MysqlImplModel$Schema" />
       </path>
     </expand>
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="DbUtilsTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/test/java/sql/DbUtilsTest.java">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Work.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/test/java/sql/Work.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="5" column="29" lean-forward="true" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+            <state relative-caret-position="75">
+              <caret line="78" column="61" lean-forward="true" selection-start-line="78" selection-start-column="61" selection-end-line="78" selection-end-column="61" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <marker date="1519895972204" expanded="true" signature="301:378" ph="select sum(a... student" />
+                <marker date="1519982012234" expanded="true" signature="786:810" ph="SELECT * FRO... userinfo" />
+                <marker date="1519982012234" expanded="true" signature="841:895" ph="INSERT INTO userinfo... " />
+                <marker date="1519982012234" expanded="true" signature="2379:2401" ph="SELECT * FRO... student" />
+                <marker date="1519982012234" expanded="true" signature="2379:2402" ph="SELECT * FRO... student" />
+                <marker date="1519982012234" expanded="true" signature="3352:3412" ph="INSERT INTO stub.student... " />
               </folding>
             </state>
           </provider>
@@ -65,8 +75,8 @@
       <file leaf-file-name="TestSql.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/test/java/sql/TestSql.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-30">
-              <caret line="14" column="54" lean-forward="false" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="54" />
+            <state relative-caret-position="232">
+              <caret line="17" column="62" lean-forward="true" selection-start-line="17" selection-start-column="62" selection-end-line="17" selection-end-column="62" />
               <folding>
                 <marker date="1519889453126" expanded="true" signature="531:567" ph="insert into person... " />
                 <marker date="1519889453126" expanded="true" signature="824:844" ph="select * fro... person" />
@@ -75,30 +85,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DbUtils.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/test/java/sql/DbUtils.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="123">
-              <caret line="20" column="13" lean-forward="true" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="config.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="5" column="10" lean-forward="false" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
-              <folding />
+      <file leaf-file-name="person" pinned="false" current-in-tab="false">
+        <entry file="das://table:/5038713f/c06ca159-5e60-4099-9a38-bedfbf16a2d0/test_sql.person">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="student" pinned="false" current-in-tab="false">
-        <entry file="das://table:/5038713f/c06ca159-5e60-4099-9a38-bedfbf16a2d0/test_sql.student">
+        <entry file="das://table:/5038713f/c06ca159-5e60-4099-9a38-bedfbf16a2d0/stub.student">
           <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
             <state>
               <filtering enabled="true" />
@@ -109,8 +106,8 @@
       <file leaf-file-name="console.sql" pinned="false" current-in-tab="false">
         <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/c06ca159-5e60-4099-9a38-bedfbf16a2d0/console.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="42">
-              <caret line="2" column="66" lean-forward="false" selection-start-line="2" selection-start-column="66" selection-end-line="2" selection-end-column="66" />
+            <state relative-caret-position="101">
+              <caret line="22" column="22" lean-forward="true" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -125,6 +122,13 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>student</find>
+      <find>student_test_sql</find>
+      <find>preparedStatement</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -145,9 +149,13 @@
         <option value="$PROJECT_DIR$/src/com/test/java/sql/TestSql.java" />
         <option value="$PROJECT_DIR$/src/com/test/java/sql/ControlSql.java" />
         <option value="$PROJECT_DIR$/src/com/test/java/sql/DbUtils.java" />
-        <option value="$PROJECT_DIR$/config.properties" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/c06ca159-5e60-4099-9a38-bedfbf16a2d0/console.sql" />
         <option value="$PROJECT_DIR$/src/com/test/java/sql/DbUtilsTest.java" />
+        <option value="$PROJECT_DIR$/src/com/test/java/sql/DatabaseUtils.java" />
+        <option value="$PROJECT_DIR$/src/com/test/java/sql/DatabaseUtilTest.java" />
+        <option value="$PROJECT_DIR$/config.properties" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/12ae2da7-9b46-4739-9aab-4f6099984d50/console.sql" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/c06ca159-5e60-4099-9a38-bedfbf16a2d0/console.sql" />
+        <option value="$PROJECT_DIR$/src/com/test/java/sql/Work.java" />
       </list>
     </option>
   </component>
@@ -198,9 +206,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="AndroidView" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -242,7 +251,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -281,7 +289,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DbUtilsTest">
+  <component name="RunManager" selected="Application.Work">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -289,14 +297,14 @@
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
     </configuration>
-    <configuration name="ControlSql" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="DatabaseUtilTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.test.java.sql.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.test.java.sql.ControlSql" />
+      <option name="MAIN_CLASS_NAME" value="com.test.java.sql.DatabaseUtilTest" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -346,9 +354,14 @@
       <module name="TestJava" />
       <envs />
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="com.test.java.Test" />
+    <configuration name="TestSql" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.test.java.sql.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.test.java.sql.TestSql" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -360,14 +373,14 @@
       <module name="TestJava" />
       <envs />
     </configuration>
-    <configuration name="TestSql" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Work" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.test.java.sql.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.test.java.sql.TestSql" />
+      <option name="MAIN_CLASS_NAME" value="com.test.java.sql.Work" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -454,19 +467,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.Test" />
-      <item index="1" class="java.lang.String" itemvalue="Application.PersionControl" />
-      <item index="2" class="java.lang.String" itemvalue="Application.ControlSql" />
-      <item index="3" class="java.lang.String" itemvalue="Application.TestSql" />
-      <item index="4" class="java.lang.String" itemvalue="Application.DbUtilsTest" />
+      <item index="0" class="java.lang.String" itemvalue="Application.PersionControl" />
+      <item index="1" class="java.lang.String" itemvalue="Application.TestSql" />
+      <item index="2" class="java.lang.String" itemvalue="Application.DbUtilsTest" />
+      <item index="3" class="java.lang.String" itemvalue="Application.DatabaseUtilTest" />
+      <item index="4" class="java.lang.String" itemvalue="Application.Work" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.DbUtilsTest" />
-        <item index="1" class="java.lang.String" itemvalue="Application.TestSql" />
-        <item index="2" class="java.lang.String" itemvalue="Application.PersionControl" />
-        <item index="3" class="java.lang.String" itemvalue="Application.ControlSql" />
-        <item index="4" class="java.lang.String" itemvalue="Application.Test" />
+        <item index="0" class="java.lang.String" itemvalue="Application.Work" />
+        <item index="1" class="java.lang.String" itemvalue="Application.DatabaseUtilTest" />
+        <item index="2" class="java.lang.String" itemvalue="Application.DbUtilsTest" />
+        <item index="3" class="java.lang.String" itemvalue="Application.TestSql" />
+        <item index="4" class="java.lang.String" itemvalue="Application.PersionControl" />
       </list>
     </recent_temporary>
   </component>
@@ -485,7 +498,8 @@
       <updated>1519555753456</updated>
       <workItem from="1519555754690" duration="890000" />
       <workItem from="1519649931426" duration="5025000" />
-      <workItem from="1519865510703" duration="13488000" />
+      <workItem from="1519865510703" duration="13755000" />
+      <workItem from="1519952202991" duration="17290000" />
     </task>
     <task id="LOCAL-00001" summary="解决冲突">
       <created>1519782999726</created>
@@ -501,11 +515,18 @@
       <option name="project" value="LOCAL" />
       <updated>1519810280060</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="添加JDBC练习 &#10;添加简易DBUtils类">
+      <created>1519896611058</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1519896611058</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21188000" />
+    <option name="totallyTimeSpent" value="38745000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
@@ -513,33 +534,63 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32958034" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32878152" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32983193" sideWeight="0.50208336" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29516807" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32983193" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32983193" sideWeight="0.49791667" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25208333" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.321875" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24947916" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39915967" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24947916" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39915967" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32878152" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29516807" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32983193" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25208333" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -550,7 +601,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="解决冲突" />
     <MESSAGE value="添加sql联系&#10;使用mysql" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加sql联系&#10;使用mysql" />
+    <MESSAGE value="添加JDBC练习 &#10;添加简易DBUtils类" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加JDBC练习 &#10;添加简易DBUtils类" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -561,66 +613,21 @@
           <properties />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="2" />
+      <option name="time" value="7" />
     </breakpoint-manager>
-    <watches-manager />
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="resultSet.next()" />
+        <watch expression="resultSet" />
+        <watch expression="map.get(name)" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/test/java/classloader/Persion.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="22" column="20" lean-forward="false" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="20" />
-          <folding>
-            <element signature="e#168#169#0" expanded="true" />
-            <element signature="e#202#203#0" expanded="true" />
-            <element signature="e#402#403#0" expanded="true" />
-            <element signature="e#452#453#0" expanded="true" />
-            <element signature="e#488#489#0" expanded="true" />
-            <element signature="e#541#542#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="13" lean-forward="false" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/test/java/classloader/PersionControl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="987">
-          <caret line="47" column="49" lean-forward="true" selection-start-line="47" selection-start-column="49" selection-end-line="47" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/test/java/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/test/java/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="6" column="5" lean-forward="false" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/src.zip!/java/util/HashMap.java" />
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/src.zip!/java/util/SortedMap.java" />
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/src.zip!/java/util/AbstractMap.java" />
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/src.zip!/java/util/TreeMap.java" />
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/src.zip!/java/util/Hashtable.java" />
@@ -650,12 +657,12 @@
         <state relative-caret-position="146">
           <caret line="9" column="15" lean-forward="false" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
           <folding>
-            <element signature="e#168#169#0" expanded="true" />
-            <element signature="e#202#203#0" expanded="true" />
-            <element signature="e#402#403#0" expanded="true" />
-            <element signature="e#452#453#0" expanded="true" />
-            <element signature="e#488#489#0" expanded="true" />
-            <element signature="e#541#542#0" expanded="true" />
+            <element signature="e#168#169#0" expanded="false" />
+            <element signature="e#202#203#0" expanded="false" />
+            <element signature="e#402#403#0" expanded="false" />
+            <element signature="e#452#453#0" expanded="false" />
+            <element signature="e#488#489#0" expanded="false" />
+            <element signature="e#541#542#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -674,7 +681,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="145">
           <caret line="836" column="33" lean-forward="true" selection-start-line="836" selection-start-column="33" selection-end-line="836" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -707,7 +713,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -723,26 +728,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/5038713f/c06ca159-5e60-4099-9a38-bedfbf16a2d0/test_sql.person">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/test/java/sql/ControlSql.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="32" column="18" lean-forward="false" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
-          <folding>
-            <marker date="1519890555260" expanded="true" signature="782:841" ph="create table... person" />
-            <marker date="1519890555260" expanded="true" signature="1206:1226" ph="select * fro... Person" />
-            <marker date="1519890555260" expanded="true" signature="1573:1627" ph="update test... " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -751,12 +736,12 @@
         <state relative-caret-position="296">
           <caret line="22" column="20" lean-forward="false" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="20" />
           <folding>
-            <element signature="e#168#169#0" expanded="true" />
-            <element signature="e#202#203#0" expanded="true" />
-            <element signature="e#402#403#0" expanded="true" />
-            <element signature="e#452#453#0" expanded="true" />
-            <element signature="e#488#489#0" expanded="true" />
-            <element signature="e#541#542#0" expanded="true" />
+            <element signature="e#168#169#0" expanded="false" />
+            <element signature="e#202#203#0" expanded="false" />
+            <element signature="e#402#403#0" expanded="false" />
+            <element signature="e#452#453#0" expanded="false" />
+            <element signature="e#488#489#0" expanded="false" />
+            <element signature="e#541#542#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -782,15 +767,73 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/c06ca159-5e60-4099-9a38-bedfbf16a2d0/console.sql">
+    <entry file="das://table:/5038713f/c06ca159-5e60-4099-9a38-bedfbf16a2d0/test_sql.student">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/test/java/sql/DbUtilsTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="66" lean-forward="false" selection-start-line="2" selection-start-column="66" selection-end-line="2" selection-end-column="66" />
+        <state relative-caret-position="354">
+          <caret line="19" column="61" lean-forward="true" selection-start-line="19" selection-start-column="61" selection-end-line="19" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <marker date="1519981334888" expanded="true" signature="301:386" ph="select sum(a... student" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/test/java/sql/DatabaseUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="797">
+          <caret line="47" column="5" lean-forward="true" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#1438#1439#0" expanded="false" />
+            <element signature="e#1472#1473#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/test/java/sql/DatabaseUtilTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <marker date="1519968533727" expanded="true" signature="311:331" ph="select * fro... person" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/test/java/sql/DbUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/12ae2da7-9b46-4739-9aab-4f6099984d50/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="33" lean-forward="false" selection-start-line="0" selection-start-column="33" selection-end-line="0" selection-end-column="33" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="das://table:/5038713f/c06ca159-5e60-4099-9a38-bedfbf16a2d0/test_sql.student">
+    <entry file="das://table:/5038713f/12ae2da7-9b46-4739-9aab-4f6099984d50/stub.userinfo">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/5038713f/c06ca159-5e60-4099-9a38-bedfbf16a2d0/stub.userinfo">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
@@ -799,26 +842,52 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="10" lean-forward="false" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+        <state relative-caret-position="63">
+          <caret line="3" column="36" lean-forward="false" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="36" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/test/java/sql/DbUtils.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/sql/Statement.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="20" column="13" lean-forward="true" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        <state relative-caret-position="207">
+          <caret line="89" column="19" lean-forward="false" selection-start-line="89" selection-start-column="19" selection-end-line="89" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://src:table:/5038713f/c06ca159-5e60-4099-9a38-bedfbf16a2d0/stub.student">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" column="13" lean-forward="false" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://src:table:/5038713f/c06ca159-5e60-4099-9a38-bedfbf16a2d0/test_sql.student">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" column="13" lean-forward="false" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/test/java/sql/ControlSql.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="41" column="22" lean-forward="false" selection-start-line="41" selection-start-column="22" selection-end-line="41" selection-end-column="22" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <marker date="1519890555260" expanded="true" signature="782:841" ph="create table... person" />
+            <marker date="1519890555260" expanded="true" signature="1206:1226" ph="select * fro... Person" />
+            <marker date="1519890555260" expanded="true" signature="1573:1627" ph="update test... " />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/test/java/sql/TestSql.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-30">
-          <caret line="14" column="54" lean-forward="false" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="54" />
+        <state relative-caret-position="232">
+          <caret line="17" column="62" lean-forward="true" selection-start-line="17" selection-start-column="62" selection-end-line="17" selection-end-column="62" />
           <folding>
             <marker date="1519889453126" expanded="true" signature="531:567" ph="insert into person... " />
             <marker date="1519889453126" expanded="true" signature="824:844" ph="select * fro... person" />
@@ -826,13 +895,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/test/java/sql/DbUtilsTest.java">
+    <entry file="das://table:/5038713f/c06ca159-5e60-4099-9a38-bedfbf16a2d0/test_sql.person">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/c06ca159-5e60-4099-9a38-bedfbf16a2d0/console.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="29" lean-forward="true" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+        <state relative-caret-position="101">
+          <caret line="22" column="22" lean-forward="true" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/5038713f/c06ca159-5e60-4099-9a38-bedfbf16a2d0/stub.student">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/test/java/sql/Work.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="78" column="61" lean-forward="true" selection-start-line="78" selection-start-column="61" selection-end-line="78" selection-end-column="61" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1519895972204" expanded="true" signature="301:378" ph="select sum(a... student" />
+            <marker date="1519982012234" expanded="true" signature="786:810" ph="SELECT * FRO... userinfo" />
+            <marker date="1519982012234" expanded="true" signature="841:895" ph="INSERT INTO userinfo... " />
+            <marker date="1519982012234" expanded="true" signature="2379:2401" ph="SELECT * FRO... student" />
+            <marker date="1519982012234" expanded="true" signature="2379:2402" ph="SELECT * FRO... student" />
+            <marker date="1519982012234" expanded="true" signature="3352:3412" ph="INSERT INTO stub.student... " />
           </folding>
         </state>
       </provider>
