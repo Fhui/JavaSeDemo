@@ -1,14 +1,12 @@
 package com.test.java.classloader;
 
-public class Persion {
+import java.io.Serializable;
+
+public class Persion implements Serializable{
 
     private String mName;
     private int mAge;
     private String mSex;
-
-    private  Persion(String mName){
-        this.mName = mName;
-    }
 
     public Persion(){
 
