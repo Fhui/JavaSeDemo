@@ -1,17 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="036aca7e-50cd-4147-904e-52d804f189ee" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/commons-dbcp2-2.2.0.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/commons-logging-1.2.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/commons-pool2-2.5.0.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/commons_dbcp2_2_2_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/commons_logging_1_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/test/java/sql/dbcp/DbcpTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/test/java/sql/dbcp/DbcpUtils.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TestJava/com/test/java/classloader/Persion.class" afterPath="$PROJECT_DIR$/out/production/TestJava/com/test/java/classloader/Persion.class" />
+    <list default="true" id="036aca7e-50cd-4147-904e-52d804f189ee" name="Default" comment="多表查询练习">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/多表查询/MySQL多表操作说明.docx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/多表查询/图片/01_一对多建表原则.bmp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/多表查询/图片/02_多对多建表原则.bmp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/多表查询/图片/03_一对一建表原则.bmp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/多表查询/图片/04_商城的实体抽取和表关系分析.bmp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/多表查询/图片/05_内连接和外连接区别.bmp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/多表查询/笔记/day09--MySQL多表&amp;jdbc-v2016.06.03.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/多表查询/SQL练习/DQL练习题答案.sql" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/多表查询/SQL练习/exam.sql" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/多表查询/SQL练习/多表查询练习题.sql" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/多表查询/SQL练习/子查询练习题答案.sql" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/多表查询/建表语句.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/test/java/domain/Student.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/c06ca159-5e60-4099-9a38-bedfbf16a2d0.xml" afterPath="$PROJECT_DIR$/.idea/dataSources/c06ca159-5e60-4099-9a38-bedfbf16a2d0.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestJava.iml" afterPath="$PROJECT_DIR$/TestJava.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/test/java/sql/dbcp/DbcpTest.java" afterPath="$PROJECT_DIR$/src/com/test/java/sql/dbcp/DbcpTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,80 +43,19 @@
       <path>
         <item name="" type="eadb38e5:DatabaseStructure$Root" />
         <item name="test_sql" type="e3449647:DbNodeDescriptor" />
-        <item name="test_sql" type="e3449647:DbNodeDescriptor" />
+        <item name="shop" type="e3449647:DbNodeDescriptor" />
       </path>
     </expand>
     <select />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="DbcpUtils.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/test/java/sql/dbcp/DbcpUtils.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-73">
-              <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DbcpTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/test/java/sql/dbcp/DbcpTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="52" column="19" lean-forward="true" selection-start-line="52" selection-start-column="19" selection-end-line="52" selection-end-column="19" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestSql.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/test/java/sql/TestSql.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-335">
-              <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-              <folding>
-                <marker date="1520166403751" expanded="true" signature="531:567" ph="insert into person... " />
-                <marker date="1520166403751" expanded="true" signature="824:844" ph="select * fro... person" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Work.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/test/java/sql/Work.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="26" column="84" lean-forward="true" selection-start-line="26" selection-start-column="84" selection-end-line="26" selection-end-column="84" />
-              <folding>
-                <marker date="1520166403751" expanded="true" signature="786:810" ph="SELECT * FRO... userinfo" />
-                <marker date="1520166403751" expanded="true" signature="841:895" ph="INSERT INTO userinfo... " />
-                <marker date="1520166403751" expanded="true" signature="2379:2402" ph="SELECT * FRO... student" />
-                <marker date="1520166403751" expanded="true" signature="3352:3412" ph="INSERT INTO stub.student... " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="console.sql" pinned="false" current-in-tab="false">
+      <file leaf-file-name="console.sql" pinned="false" current-in-tab="true">
         <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/c06ca159-5e60-4099-9a38-bedfbf16a2d0/console.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="506">
-              <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="36" />
+            <state relative-caret-position="117">
+              <caret line="91" column="32" lean-forward="true" selection-start-line="91" selection-start-column="32" selection-end-line="91" selection-end-column="32" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="student" pinned="false" current-in-tab="false">
-        <entry file="das://table:/bea2c576/c06ca159-5e60-4099-9a38-bedfbf16a2d0/test_sql.student">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
             </state>
           </provider>
         </entry>
@@ -147,8 +92,9 @@
         <option value="$PROJECT_DIR$/src/com/test/java/classloader/Persion.java" />
         <option value="$PROJECT_DIR$/src/com/test/java/sql/utils/CommonDbUtilsTest.java" />
         <option value="$PROJECT_DIR$/src/com/test/java/sql/dbcp/DbcpUtils.java" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/c06ca159-5e60-4099-9a38-bedfbf16a2d0/console.sql" />
+        <option value="$PROJECT_DIR$/src/com/test/java/domain/Student.java" />
         <option value="$PROJECT_DIR$/src/com/test/java/sql/dbcp/DbcpTest.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/c06ca159-5e60-4099-9a38-bedfbf16a2d0/console.sql" />
       </list>
     </option>
   </component>
@@ -197,7 +143,20 @@
             <path>
               <item name="TestJava" type="b2602c69:ProjectViewProjectNode" />
               <item name="TestJava" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="doc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestJava" type="462c0819:PsiDirectoryNode" />
+              <item name="doc" type="462c0819:PsiDirectoryNode" />
+              <item name="多表查询" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestJava" type="462c0819:PsiDirectoryNode" />
+              <item name="doc" type="462c0819:PsiDirectoryNode" />
+              <item name="多表查询" type="462c0819:PsiDirectoryNode" />
+              <item name="SQL练习" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TestJava" type="b2602c69:ProjectViewProjectNode" />
@@ -252,11 +211,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/doc/多表查询" />
       <recent name="$PROJECT_DIR$/lib" />
       <recent name="$PROJECT_DIR$/doc/29" />
       <recent name="$PROJECT_DIR$/doc/28" />
       <recent name="$PROJECT_DIR$/doc/30" />
-      <recent name="$PROJECT_DIR$/doc" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/doc/28" />
@@ -478,7 +437,7 @@
       <updated>1519555753456</updated>
       <workItem from="1519555754690" duration="890000" />
       <workItem from="1519649931426" duration="5025000" />
-      <workItem from="1520171178520" duration="10633000" />
+      <workItem from="1520171178520" duration="20076000" />
     </task>
     <task id="LOCAL-00001" summary="解决冲突">
       <created>1519782999726</created>
@@ -494,15 +453,21 @@
       <option name="project" value="LOCAL" />
       <updated>1520177882909</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="dbcp联系">
+      <created>1520260914699</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1520260914699</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24948000" />
+    <option name="totallyTimeSpent" value="34391000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -516,9 +481,9 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2958035" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32958034" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32958034" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2924298" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2924298" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2857143" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -573,7 +538,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="解决冲突" />
     <MESSAGE value="dbUtils 学习" />
-    <option name="LAST_COMMIT_MESSAGE" value="dbUtils 学习" />
+    <MESSAGE value="dbcp联系" />
+    <MESSAGE value="多表查询练习" />
+    <option name="LAST_COMMIT_MESSAGE" value="多表查询练习" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -598,40 +565,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/config.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="13" lean-forward="false" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/test/java/classloader/PersionControl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="987">
-          <caret line="47" column="49" lean-forward="true" selection-start-line="47" selection-start-column="49" selection-end-line="47" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/test/java/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/test/java/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="6" column="5" lean-forward="false" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/src.zip!/java/util/HashMap.java" />
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/src.zip!/java/util/SortedMap.java" />
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/src.zip!/java/util/AbstractMap.java" />
@@ -732,13 +665,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://table:/bea2c576/c06ca159-5e60-4099-9a38-bedfbf16a2d0/test_sql.score">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/test/java/Test.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
@@ -796,23 +722,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://table:/bea2c576/c06ca159-5e60-4099-9a38-bedfbf16a2d0/test_sql.person">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/test/java/sql/dbcp/DbcpUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-73">
-          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
@@ -821,25 +730,49 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/c06ca159-5e60-4099-9a38-bedfbf16a2d0/console.sql">
+    <entry file="file://$PROJECT_DIR$/src/com/test/java/sql/dbcp/DbcpUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="36" />
-          <folding />
+        <state relative-caret-position="-266">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="das://table:/bea2c576/c06ca159-5e60-4099-9a38-bedfbf16a2d0/test_sql.student">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
+    <entry file="file://$PROJECT_DIR$/src/com/test/java/domain/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="82" lean-forward="false" selection-start-line="12" selection-start-column="82" selection-end-line="12" selection-end-column="82" />
+          <folding>
+            <element signature="e#456#457#0" expanded="true" />
+            <element signature="e#481#482#0" expanded="true" />
+            <element signature="e#514#515#0" expanded="true" />
+            <element signature="e#542#543#0" expanded="true" />
+            <element signature="e#578#579#0" expanded="true" />
+            <element signature="e#610#611#0" expanded="true" />
+            <element signature="e#660#661#0" expanded="true" />
+            <element signature="e#702#703#0" expanded="true" />
+            <element signature="e#731#732#0" expanded="true" />
+            <element signature="e#759#760#0" expanded="true" />
+            <element signature="e#798#799#0" expanded="true" />
+            <element signature="e#832#833#0" expanded="true" />
+            <element signature="e#863#864#0" expanded="true" />
+            <element signature="e#890#891#0" expanded="true" />
+            <element signature="e#930#931#0" expanded="true" />
+            <element signature="e#962#963#0" expanded="true" />
+            <element signature="e#992#993#0" expanded="true" />
+            <element signature="e#1018#1019#0" expanded="true" />
+            <element signature="e#1056#1057#0" expanded="true" />
+            <element signature="e#1086#1087#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/test/java/sql/dbcp/DbcpTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="52" column="19" lean-forward="true" selection-start-line="52" selection-start-column="19" selection-end-line="52" selection-end-column="19" />
+        <state relative-caret-position="-3">
+          <caret line="14" column="31" lean-forward="true" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -848,7 +781,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/test/java/sql/TestSql.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-335">
+        <state relative-caret-position="-13">
           <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
           <folding>
             <marker date="1520166403751" expanded="true" signature="531:567" ph="insert into person... " />
@@ -859,14 +792,65 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/test/java/sql/Work.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="26" column="84" lean-forward="true" selection-start-line="26" selection-start-column="84" selection-end-line="26" selection-end-column="84" />
+        <state relative-caret-position="134">
+          <caret line="32" column="35" lean-forward="false" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="35" />
           <folding>
             <marker date="1520166403751" expanded="true" signature="786:810" ph="SELECT * FRO... userinfo" />
             <marker date="1520166403751" expanded="true" signature="841:895" ph="INSERT INTO userinfo... " />
             <marker date="1520166403751" expanded="true" signature="2379:2402" ph="SELECT * FRO... student" />
             <marker date="1520166403751" expanded="true" signature="3352:3412" ph="INSERT INTO stub.student... " />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/bea2c576/c06ca159-5e60-4099-9a38-bedfbf16a2d0/test_sql.student">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/bea2c576/c06ca159-5e60-4099-9a38-bedfbf16a2d0/test_sql.score">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/bea2c576/c06ca159-5e60-4099-9a38-bedfbf16a2d0/test_sql.person">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/bea2c576/c06ca159-5e60-4099-9a38-bedfbf16a2d0/test_sql.occupation">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/c06ca159-5e60-4099-9a38-bedfbf16a2d0/console_1.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/bea2c576/c06ca159-5e60-4099-9a38-bedfbf16a2d0/shop.orderitem">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/c06ca159-5e60-4099-9a38-bedfbf16a2d0/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="91" column="32" lean-forward="true" selection-start-line="91" selection-start-column="32" selection-end-line="91" selection-end-column="32" />
+          <folding />
         </state>
       </provider>
     </entry>
